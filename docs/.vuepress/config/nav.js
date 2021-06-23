@@ -6,7 +6,8 @@ module.exports = [{
 	{
 		text: 'Linux相关',
 		link: '/linux/',
-		items: [{
+		items: [
+			{
 				text: 'Git常用命令',
 				link: '/linux/git/'
 			}, // 哈希链接是在你运行项目状态下，新增 markdown 文件自动生成的
@@ -15,16 +16,12 @@ module.exports = [{
 				link: '/linux/docker/'
 			},
 			{
-				text: 'Nginx',
-				link: '/linux/nginx/'
-			},
-			{
-				text: 'Shell',
-				link: '/linux/shell/'
-			},
-			{
-				text: '系统管理',
-				link: '/linux/systems/'
+			   text: 'Linux系统',
+			   items: [
+				  { text: '常用命令', link: '/linux/systems/common/' },
+				  { text: '防火墙管理', link: '/linux/systems/security/' },
+				  { text: 'yum', link: '/linux/systems/yum/' },
+				]
 			}
 		]
 	},
