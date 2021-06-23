@@ -1,0 +1,26 @@
+{
+  "name": "knowledgedb",
+  "version": "1.0.0",
+  "description": "A database of bioinformatics knowledge",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkbaim/knowledgedb.git"
+  },
+  "author": "Yang Du",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nkbaim/knowledgedb/issues"
+  },
+  "homepage": "https://github.com/nkbaim/knowledgedb#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-one-click-copy": "^1.0.3",
+    "vuepress-plugin-zooming": "^1.1.8",
+    "vuepress-theme-vdoing": "^1.8.3"
+  }
+}
