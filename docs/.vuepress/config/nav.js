@@ -16,6 +16,14 @@ module.exports = [{
 				link: '/linux/docker/'
 			},
 			{
+				text: 'Conda指南',
+				link: '/linux/conda/'
+			},
+			{
+				text: 'snakemake入门',
+				link: '/linux/snakemake/'
+			},
+			{
 			   text: 'Linux系统',
 			   items: [
 				  { text: '常用命令', link: '/linux/systems/common/' },
