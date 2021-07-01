@@ -26,9 +26,7 @@ module.exports = [{
 			{
 			   text: 'Linux系统',
 			   items: [
-				  { text: '常用命令', link: '/linux/system/' },
-				  { text: '防火墙管理', link: '/linux/systems/security/' },
-				  { text: 'yum', link: '/linux/systems/yum/' },
+				  { text: 'Linux常用命令', link: '/linux/system/' }
 				]
 			}
 		]
