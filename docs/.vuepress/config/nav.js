@@ -20,7 +20,7 @@ module.exports = [{
 				link: '/linux/conda/'
 			},
 			{
-				text: 'snakemake入门',
+				text: 'Snakemake入门',
 				link: '/linux/snakemake/'
 			},
 			{
