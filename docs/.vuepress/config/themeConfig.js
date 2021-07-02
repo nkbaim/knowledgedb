@@ -8,7 +8,7 @@ module.exports = {
   	mode: 'structuring',
   	collapsable: true,
   },
-  logo: 'images/logo-small.png',
+  logo: 'http://cdn.duomics.cn/logo-small.png',
   sidebarDepth: 2,
   rightMenuBar: true,
   pageButton: true,
@@ -20,7 +20,6 @@ module.exports = {
   tag: true,
   archive: true,
   categoryText: '随笔', 
-  searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
 
   // bodyBgImg: [
