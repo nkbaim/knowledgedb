@@ -8,7 +8,7 @@ module.exports = {
   	mode: 'structuring',
   	collapsable: true,
   },
-  logo: 'http://cdn.duomics.cn/logo-small.png',
+  logo: 'images/logo-small.png',
   sidebarDepth: 2,
   rightMenuBar: true,
   pageButton: true,
