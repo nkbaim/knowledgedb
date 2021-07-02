@@ -20,7 +20,7 @@ module.exports = [{
 				link: '/linux/conda/'
 			},
 			{
-				text: 'Snakemake入门',
+				text: 'Snakemake指南',
 				link: '/linux/snakemake/'
 			},
 			{
@@ -65,23 +65,23 @@ module.exports = [{
 		text: 'R语言',
 		link: '/r/',
 		items: [{
-				text: '《R Tips》',
+				text: 'R Tips',
 				link: '/r/tips/'
 			},
 			{
-				text: '《R基础绘图》',
+				text: 'R基础绘图',
 				link: '/r/plot/'
 			},
 			{
-				text: '《ggplot2绘图》',
+				text: 'ggplot2绘图',
 				link: '/r/ggplot2/'
 			},
 			{
-				text: '《Shiny APP》',
+				text: 'Shiny APP',
 				link: '/r/shiny/'
 			},
 			{
-				text: '《R包开发》',
+				text: 'R包开发',
 				link: '/r/package/'
 			}
 		]
