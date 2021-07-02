@@ -8,25 +8,30 @@ module.exports = [{
 		link: '/linux/',
 		items: [
 			{
-				text: 'Git常用命令',
-				link: '/linux/git/'
-			}, // 哈希链接是在你运行项目状态下，新增 markdown 文件自动生成的
-			{
-				text: 'Docker入门',
-				link: '/linux/docker/'
-			},
-			{
-				text: 'Conda指南',
-				link: '/linux/conda/'
-			},
-			{
-				text: 'Snakemake指南',
-				link: '/linux/snakemake/'
-			},
-			{
 			   text: 'Linux系统',
 			   items: [
 				  { text: 'Linux常用命令', link: '/linux/system/' }
+				]
+			},
+			{
+				text: "生信必备工具",
+				items:[
+					{
+						text: 'Git常用命令',
+						link: '/linux/git/'
+					}, // 哈希链接是在你运行项目状态下，新增 markdown 文件自动生成的
+					{
+						text: 'Docker入门',
+						link: '/linux/docker/'
+					},
+					{
+						text: 'Conda指南',
+						link: '/linux/conda/'
+					},
+					{
+						text: 'Snakemake指南',
+						link: '/linux/snakemake/'
+					}
 				]
 			}
 		]
