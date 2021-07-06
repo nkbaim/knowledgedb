@@ -6,17 +6,16 @@ module.exports = [{
 	{
 		text: 'Linux相关',
 		link: '/linux/',
-		items: [
-			{
-			   text: 'Linux系统',
-			   items: [
-				  { text: 'Linux常用命令', link: '/linux/system/' }
-				]
+		items: [{
+				text: 'Linux系统',
+				items: [{
+					text: 'Linux常用命令',
+					link: '/linux/system/'
+				}]
 			},
 			{
 				text: "生信必备工具",
-				items:[
-					{
+				items: [{
 						text: 'Git常用命令',
 						link: '/linux/git/'
 					}, // 哈希链接是在你运行项目状态下，新增 markdown 文件自动生成的
@@ -63,6 +62,25 @@ module.exports = [{
 			{
 				text: '蛋白组',
 				link: '/omics/proteomics'
+			}
+		]
+	},
+	{
+		text: '数据分析',
+		link: '/datascience/',
+		items: [{
+				text: '生物信息分析',
+				items: [{
+					text: '基因通路富集分析',
+					link: '/datascience/gsea/',
+				}]
+			},
+			{
+				text: '统计分析',
+				items: [{
+					text: '常见统计分析',
+					link: '/datascience/stats/',
+				}]
 			}
 		]
 	},
