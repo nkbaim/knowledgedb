@@ -8,7 +8,7 @@ module.exports = {
   	mode: 'structuring',
   	collapsable: true,
   },
-  logo: 'images/logo-small.png',
+  logo: 'https://cdn.jsdelivr.net/gh/nkbaim/pics/blog/logo-small.png',
   sidebarDepth: 2,
   rightMenuBar: true,
   pageButton: true,
