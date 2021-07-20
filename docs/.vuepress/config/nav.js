@@ -61,7 +61,7 @@ module.exports = [{
 			},
 			{
 				text: '蛋白组',
-				link: '/omics/proteomics'
+				link: '/omics/proteomics/'
 			}
 		]
 	},
