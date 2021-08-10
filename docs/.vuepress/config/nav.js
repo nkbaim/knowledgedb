@@ -5,7 +5,6 @@ module.exports = [{
 	},
 	{
 		text: 'Linux相关',
-		link: '/linux/',
 		items: [{
 				text: 'Linux系统',
 				items: [{
@@ -36,15 +35,30 @@ module.exports = [{
 		]
 	},
 	{
-		text: 'Web技术',
-		link: '/web/',
+		text: '数据库',
 		items: [{
-				text: 'Mysql',
-				link: '/web/database/mysql/'
+				text: "Web技术",
+				items: [
+				{
+					text: 'Mysql',
+					link: '/web/database/mysql/'
+				},
+				{
+					text: 'Java',
+					link: '/web/java/spring/'
+				}]
 			},
 			{
-				text: 'Java',
-				link: '/web/java/spring/'
+				text: '生物信息数据库',
+				items: [
+				{
+					text: 'linkedomics',
+					link: 'http://www.linkedomics.org/login.php'
+				},
+				{
+					text: 'cBioPortal',
+					link: 'https://www.cbioportal.org/'
+				}]
 			}
 		]
 	},
